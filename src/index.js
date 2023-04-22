@@ -49,7 +49,7 @@ function listCountry(countries) {
       return `<li>
         <img src="${country.flags.svg}" alt="Flag of ${
         country.name.official
-      }" width="30" hight="20">
+      }" width="50" hight="30">
            <b>${country.name.official}</b></p>
               <p><b>Capital</b>: ${country.capital}</p>
               <p><b>Population</b>: ${country.population}</p>
